@@ -1,0 +1,858 @@
+/*
+Theme Name: takahashi-kenzai
+Theme URI: テーマのURL
+Author:作者名/会社名
+Author URI: 作者/会社のURL
+Description: テーマの説明
+Version: テーマのバージョン
+*/
+
+
+
+/* PC、スマホ共通スタイル */
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+/* ＝＝＝＝＝＝＝＝＝＝＝ */
+/* トップページ*/
+/* ＝＝＝＝＝＝＝＝＝＝＝ */
+
+/* ヘッダー */
+.logo-title {
+  display: flex;
+  text-align: left;
+}
+.header-container {
+  display: flex;
+  text-align: center;
+}
+
+/* ロゴ写真 */
+.logo-img{
+  width: 80px;
+}
+
+/* サイトタイトル */
+.site-title {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+.site-title > a {
+  text-decoration: none;
+}
+.site-title > a:link {
+  color: black;
+}
+.site-title > a:visited { 
+  color: black;
+}
+.site-title > a:hover {
+  color: black;
+}
+.site-title > a:active {
+  color: black;
+}
+
+/* ナビゲーション */
+
+.nabi-button {
+  position: fixed;
+  margin-left: 300px;
+}
+
+nav ul {
+  display: none;
+  font-size: 20px;
+  margin: 20px 0;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+nav ul a:link {
+  color: black;
+}
+nav ul a:visited {
+  color: black;
+}
+nav ul a:hover {
+  color: blue;
+}
+nav ul a:active {
+  color: blue;
+}
+
+
+/* メイン画像 */
+.rode-img {
+  margin: 60px auto;
+}
+
+/* お知らせ */
+.informaition {
+  text-align: center;
+}
+
+dl {
+  text-align: center;
+  margin: auto  ;
+}
+ 
+/* お知らせ内容 */
+dd {
+  margin: 30px 0;
+  color: blue;
+}
+
+dd > a {
+  text-decoration: none;
+}
+
+dd > a:link { 
+  color: blue;
+}
+
+dd > a:visited {
+  color: blue;
+}
+
+dd > a:hover {
+  color: blue;
+}
+
+dd > a:active {
+  color: blue;
+}
+
+/* 会社挨拶 　写真の上に挨拶文*/
+
+.company-greeting2 {
+  margin: 60px 0 30px 0;
+  height: 300px;
+  background-image: url(images/rode1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:transparent;
+  opacity: 0.8;
+}
+
+.box{
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0 0 0;
+  letter-spacing: 0.3rem;
+}
+
+/* 会社案内 */
+
+.flex h2 {
+  margin: 10px 0;
+  padding: 63px 0;
+  color: aliceblue;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: 0.5em;
+  text-shadow: 1px 1px 2px black;
+}
+
+.company-brochre-container {
+  background-image: url(images/gazou2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.company-brochre-container > a:link {
+  text-decoration: none;
+}
+
+.company-brochre-container > a:link { 
+  color: white;
+}
+
+.company-brochre-container> a:visited {
+  color: white;
+}
+
+.company-brochre-container > a:hover {
+  color: white;
+}
+
+.company-brochre-container > a:active {
+  color: white ;
+}
+
+/* 採用情報 */
+.recruit-container {
+  background-image: url(images/rode7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recruit-container > a:link {
+  text-decoration: none;
+}
+
+.recruit-container > a:link { 
+  color: white;
+}
+
+.recruit-container > a:visited {
+  color: white;
+}
+
+.recruit-container > a:hover {
+  color: white;
+}
+
+.recruit-container > a:active {
+  color: white ;
+}
+
+/* 舗装工事 */
+.hosou-container {
+  background-image: url(images/rode3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hosou-container > a:link {
+  text-decoration: none;
+}
+
+.hosou-container > a:link { 
+  color: white;
+}
+
+.hosou-container > a:visited {
+  color: white;
+}
+
+.hosou-container > a:hover {
+  color: white;
+}
+
+.hosou-container > a:active {
+  color: white ;
+}
+
+/* 施工事例 */
+.works-container {
+  background-image: url(images/rode12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.works-container > a:link {
+  text-decoration: none;
+}
+
+.works-container > a:link { 
+  color: white;
+}
+
+.works-container > a:visited {
+  color: white;
+}
+
+.works-container > a:hover {
+  color: white;
+}
+
+.works-container > a:active {
+  color: white ;
+}
+
+/* 砂利販売 */
+.sales-container {
+  background-image: url(images/jyarisample2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sales-container > a:link {
+  text-decoration: none;
+}
+
+.sales-container > a:link { 
+  color: white;
+}
+
+.sales-container > a:visited {
+  color: white;
+}
+
+.sales-container > a:hover {
+  color: white;
+}
+
+.sales-container > a:active {
+  color: white ;
+}
+
+
+/* お見積り */
+.estimate-container {
+  background-image: url(images/rode8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.estimate-container  > a:link {
+  text-decoration: none;
+}
+
+.estimate-container > a:link { 
+  color: white;
+}
+
+.estimate-container > a:visited {
+  color: white;
+}
+
+.estimate-container > a:hover {
+  color: white;
+}
+
+.estimate-container > a:active {
+  color: white ;
+}
+
+/* フッター */
+footer{
+  margin: 10px;
+  text-align: center;
+  background-color: darkblue;
+  color: aliceblue;
+}
+
+.site-title2{
+margin: 0;
+padding: 10px 0 0 0;
+}
+
+.adress{
+  margin: 0;
+}
+/* コピーライト */
+.copyright{
+  font-size: 10px;
+}
+
+/* グーグルマップ */
+iframe {
+  margin: 30px 0;
+  height: 200px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* インスタボタン */
+.instagram{
+  margin: 20px auto;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+/* ================= */
+/*会社案内ページ*/
+/* ================= */
+
+/* 会社案内・ご挨拶 */
+.h1-title{
+  margin: 40px 0 20px 0;
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 18px;
+}
+
+.h2-nav{
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 12px;
+}
+
+.goaisatu2{
+  margin: 36px 0;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+}
+
+.logo-img2{
+  width: 120px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.takahashikenji{
+  width: 300px;
+  margin: auto;
+}
+
+/* 経営方針 */
+.keiei-h3{
+  margin: 20px auto;
+}
+
+/* 会社概要 */
+
+th{
+  background-color: rgb(224, 221, 221);
+  font-size: 16px;
+}
+
+th,td{
+  border: solid 1px;
+  padding: 10px;
+}
+
+table{
+  margin: 40px auto;
+  border-collapse: collapse;
+}
+
+/* 登録許可 */
+.touroku-h3{
+  text-decoration: underline;
+}
+
+/* 加入団体 */
+.kanyu-p{
+  text-align: center;
+}
+
+
+/* ＝＝＝＝＝＝＝＝＝＝＝＝ */
+/* 採用情報ページ */
+/* ＝＝＝＝＝＝＝＝＝＝＝＝ */
+
+/* 採用情報 */
+.recruit-p {
+  margin: 40px auto;
+  font-size: 24px;
+  color: crimson;
+  text-align: center;
+  line-height: 40px;
+}
+
+/* お問い合わせボタン */
+.otoiawase {
+  text-align: center;
+}
+
+.otoiawase > a {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: lightblue;
+  text-decoration: none;
+}
+
+.otoiawase > a:link { 
+  color: black ;
+}
+
+.otoiawase > a:visited {
+  color: black ;
+}
+
+.otoiawase > a:hover {
+  color: black ;
+}
+
+.otoiawase > a:active {
+  color: black ;
+}
+
+/* ================= */
+/* 砂利販売 */
+/* ================= */
+h4 {
+  margin: 20px 0;
+  font-size: 20px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+
+.jyari-img
+img {
+  object-fit: cover;
+  height: 200px;}
+
+  .jyari-img {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr ;
+}
+
+/* ================ */
+/* 産業廃棄物中間処理 */
+/* ================ */
+.h1-title-1{
+  font-size: 28px;
+  margin: 40px 0 0 0;
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.h2-nav-1{
+  font-size: 20px;
+  background-color: darkblue;
+  color: aliceblue;
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.ukeirehyou{
+  margin: 40px 0;
+}
+
+.kurasha-p{
+  text-align: center;
+}
+
+/* ============== */
+/* 設備概要 */
+/* ============== */
+.setubi-p {
+  text-align: center;
+}
+
+.th1 {
+ width: 250px;
+}
+
+/* ============== */
+/* 様式集 */
+/* ============== */
+.youshiki {
+  color: black ;
+  text-align: center;
+  letter-spacing: 20px;
+  margin: 60px 0;
+}
+
+.youshiki > a:link { 
+  color: black ;
+}
+
+.youshiki > a:visited {
+  color: black ;
+}
+
+.youshiki> a:hover {
+  color:  black;
+}
+
+.youshiki > a:active {
+  color: black ;
+}
+
+.youshiki-p{
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 0 60px 0;
+}
+
+/* =============== */
+/* 舗装工事 */
+/* =============== */
+
+h5 {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hosou-p{
+  margin: 18px 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.hiyou-p{
+  margin: 30px 0;
+  text-align: center;
+  line-height: 30px;
+}
+
+.soudan-p{
+  color: red;
+  text-align: center;
+  line-height: 30px;
+}
+
+.tel{
+  font-size: 20px;
+  text-align: center; 
+}
+
+.hosou-img 
+img {
+  object-fit: cover;
+  height: 240px;
+}
+
+/* =============== */
+/* 施工事例 */
+/* =============== */
+.before{
+  color: white;
+  margin: 20px 0;
+  font-size: 20px;
+  background-color: rgba(0, 0, 255, 0.753) ;
+  text-align: center;
+}
+
+.after{
+  color: white;
+  margin: 20px 0;
+  font-size: 20px;
+  background-color: rgba(255, 0, 0, 0.777) ;
+  text-align: center;
+}
+
+.ayugawa {
+  text-align: center;
+}
+
+.kansei-p {
+  text-align: center;
+}
+
+.sekou-img 
+img {
+  object-fit: cover;
+  height: 300px;
+}
+
+.kansei-img
+img {
+  object-fit: cover;
+  height: 240px;
+}
+
+/* ＊＊＊＊＊＊＊＊＊＊＊＊＊ */
+/* PCスタイル */
+/* ＊＊＊＊＊＊＊＊＊＊＊＊＊ */
+@media(min-width:768px) {
+ 
+ /* ＝＝＝＝＝＝＝＝＝＝＝＝ */
+  /* トップページ */
+  /* ＝＝＝＝＝＝＝＝＝＝＝ */
+
+  /* 横幅設定 */
+  body{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 会社名 */
+  .logo-img{
+    width: 120px;
+  }
+  
+  .site-title{
+    font-size: 34px;
+    margin: 0;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  padding-left: 20px;
+
+  }
+  
+  /* ナビゲーションレイアウト */
+  nav ul {
+    
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  h1.center{
+    font-size: 36px;
+    letter-spacing: 30px;
+  }
+  
+  header .sub-menu {
+    margin: 0 auto;
+    position: relative;
+    font-size: 16px;
+    display: none;
+  }
+  
+  header .menu-item-has-children:hover .sub-menu {
+    position: absolute;
+    display: block;
+    line-height: 24px;
+  }
+
+
+
+  /* 会社挨拶 */
+
+  .box {
+    padding: 20px 0 0 0;
+    font-size: 18px;
+    letter-spacing: 0.5rem;
+  }
+
+  /* 会社案内〜 */
+  .flex {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* ================ */
+  /* 会社案内ページ*/
+  /* ================ */
+
+  /* ご挨拶 */
+
+  .sign{
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-img2{
+    margin: 100px;
+  }
+
+  /* 経営方針 */
+
+  .keiei-1-2-3{
+    margin: 0 0 0 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .keiei-4-5-6{
+    margin: 0 0 0 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* 登録・許可 */
+  .touroku-1-2-3{
+    margin: 0 0 0 60px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .touroku-4-5{
+    margin: 0 0 0 60px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* ============== */
+  /* 砂利販売 */
+  /* ============== */
+  .jyari-kind{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr ;
+  }
+
+  
+/* =============== */
+/* 産業廃棄物中間施設 */
+/* =============== */
+
+.ukeirehyou{
+  display: grid ;
+  gap: 40px ;
+  grid-template-columns: 1fr 1fr ;
+}
+
+/* ============== */
+/* 設備概要 */
+/* ============== */
+.plant{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.sharyo-kind{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+/* =============== */
+/* 舗装工事 */
+/* =============== */
+.genba {
+  margin: 30px 0;
+  display: grid;
+  gap: 20px ;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.hosou-kind{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.tel-otoiawase{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* ============== */
+/* 施行事例 */
+/* ============== */
+
+.sekoujirei{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr ;
+}
+
+.kanseikouji {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.nabi-button {
+  display: none;
+}
+
+}
+
+
+
